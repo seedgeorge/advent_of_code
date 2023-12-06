@@ -7,7 +7,7 @@ num1 = as.numeric(substr(nocharacter,1,1))
 num2 = as.numeric(substr(nocharacter,nchar(nocharacter),nchar(nocharacter)))
 sum(as.numeric(paste(num1,num2,sep="")))
 
-##
+## solution 2
 library(stringr)
 input = readLines("day1_input.txt")
 
